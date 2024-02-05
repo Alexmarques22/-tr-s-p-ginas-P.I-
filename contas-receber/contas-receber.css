@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    text-align: center;
+    color: #fff;
+    border: 2px solid #333;
+    background-color: #1565c0; 
+    padding: 15px 60px;
+    border-radius: 15px;
+}
+label {
+    border: 1 solid #333; 
+    padding: 2px 100px;
+    font-size: 35px;
+}
+input[type="submit"] {
+    margin-top: 15px; 
+    border-radius: 15px;
+    padding: 5px 30px;
+    font-size: 40px;
+    margin-right: 5px;
+    background-color: #fff;
+}
